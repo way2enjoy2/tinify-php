@@ -3,7 +3,7 @@
 namespace Tinify;
 
 class Client {
-    const API_ENDPOINT = "https://api.tinify.com";
+    const API_ENDPOINT = "https://way2enjoy.com/modules/compress-png/magento4.php";
 
     const RETRY_COUNT = 1;
     const RETRY_DELAY = 500;
@@ -37,7 +37,7 @@ class Client {
             CURLOPT_HEADER => true,
             CURLOPT_USERPWD => "api:" . $key,
             CURLOPT_CAINFO => self::caBundle(),
-            CURLOPT_SSL_VERIFYPEER => true,
+      //      CURLOPT_SSL_VERIFYPEER => true,
             CURLOPT_USERAGENT => join(" ", array_filter(array(self::userAgent(), $app_identifier))),
         );
 
