@@ -1,5 +1,6 @@
 {
   "name": "tinify/tinify",
+  "version": "2.0.1",
   "description": "PHP client for the Tinify API. Tinify compresses your images intelligently. Read more at https://tinify.com.",
   "keywords": [
     "tinify",
