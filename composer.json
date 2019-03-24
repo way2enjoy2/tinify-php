@@ -1,7 +1,7 @@
 {
   "name": "way2enjoy/way2enjoy",
-  "version": "2.0.1",
-  "description": "PHP client for the Tinify API. Tinify compresses your images intelligently. Read more at https://tinify.com.",
+  "version": "2.0.3",
+  "description": "PHP client for the Way2enjoy API. Way2enjoy compresses your images intelligently. Read more at https://way2enjoy.com.",
   "keywords": [
     "tinify",
     "tinypng",
@@ -11,16 +11,16 @@
     "api"
   ],
 
-  "homepage": "https://tinify.com/developers",
+  "homepage": "https://Way2enjoy.com/developers",
   "license": "MIT",
 
   "support": {
-    "email": "support@tinify.com"
+    "email": "support@Way2enjoy.com"
   },
 
   "authors": [{
-    "name": "Rolf Timmermans",
-    "email": "rolftimmermans@voormedia.com"
+    "name": "James",
+    "email": "bydbest@gmail.com"
   }],
 
   "require": {
