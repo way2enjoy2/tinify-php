@@ -5,12 +5,12 @@ require_once("vendor/autoload.php");
 
 class TestCase extends \PHPUnit_Framework_TestCase {
     function setUp() {
-        Tinify\CurlMock::reset();
-        Tinify\setKey(NULL);
-        TInify\setProxy(NULL);
+        Way2enjoy\CurlMock::reset();
+        Way2enjoy\setKey(NULL);
+        Way2enjoy\setProxy(NULL);
     }
 
     function tearDown() {
-        Tinify\CurlMock::reset();
+        Way2enjoy\CurlMock::reset();
     }
 }
