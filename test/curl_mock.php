@@ -1,6 +1,6 @@
 <?php
 
-namespace Tinify;
+namespace Way2enjoy;
 
 class CurlMockException extends Exception {
 }
