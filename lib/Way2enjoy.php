@@ -1,10 +1,10 @@
 <?php
 
-namespace Tinify;
+namespace Way2enjoy;
 
-const VERSION = "1.5.2";
+const VERSION = "2.0.6";
 
-class Tinify {
+class Way2enjoy {
     private static $key = NULL;
     private static $appIdentifier = NULL;
     private static $proxy = NULL;
@@ -37,7 +37,7 @@ class Tinify {
 
     public static function getClient() {
         if (!self::$key) {
-            throw new AccountException("Provide an API key with Tinify\setKey(...)");
+            throw new AccountException("Provide an API key with Way2enjoy\setKey(...)");
         }
 
         if (!self::$client) {
@@ -53,23 +53,23 @@ class Tinify {
 }
 
 function setKey($key) {
-    return Tinify::setKey($key);
+    return Way2enjoy::setKey($key);
 }
 
 function setAppIdentifier($appIdentifier) {
-    return Tinify::setAppIdentifier($appIdentifier);
+    return Way2enjoy::setAppIdentifier($appIdentifier);
 }
 
 function setProxy($proxy) {
-    return Tinify::setProxy($proxy);
+    return Way2enjoy::setProxy($proxy);
 }
 
 function getCompressionCount() {
-    return Tinify::getCompressionCount();
+    return Way2enjoy::getCompressionCount();
 }
 
 function compressionCount() {
-    return Tinify::getCompressionCount();
+    return Way2enjoy::getCompressionCount();
 }
 
 function fromFile($path) {
@@ -86,7 +86,7 @@ function fromUrl($string) {
 
 function validate() {
     try {
-        Tinify::getClient()->request("post", "/shrink");
+        Way2enjoy::getClient()->request("post", "/shrink");
     } catch (AccountException $err) {
         if ($err->status == 429) return true;
         throw $err;
