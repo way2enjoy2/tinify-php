@@ -36,7 +36,7 @@
   },
 
   "autoload": {
-    "files": ["lib/Tinify.php", "lib/Tinify/Exception.php", "registration.php"],
-    "psr-4": {"Tinify\\": "lib/Tinify/"}
+    "files": ["lib/Way2enjoy.php", "lib/Way2enjoy/Exception.php", "registration.php"],
+    "psr-4": {"Way2enjoy\\": "lib/Way2enjoy/"}
   }
 }
