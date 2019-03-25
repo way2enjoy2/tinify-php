@@ -2,7 +2,7 @@
 
 namespace Way2enjoy;
 
-const VERSION = "2.0.6";
+const VERSION = "2.0.7";
 
 class Way2enjoy {
     private static $key = NULL;
