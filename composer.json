@@ -1,9 +1,9 @@
 {
   "name": "way2enjoy/way2enjoy",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "PHP client for the Way2enjoy API. Way2enjoy compresses your images intelligently. Read more at https://way2enjoy.com.",
   "keywords": [
-    "tinify",
+    "way2enjoy",
     "tinypng",
     "tinyjpg",
     "compress",
