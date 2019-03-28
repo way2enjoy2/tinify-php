@@ -3,7 +3,7 @@
 namespace Way2enjoy;
 
 class Client {
-    const API_ENDPOINT = "https://way2enjoy.com/modules/compress-png/magento4.php";
+    const API_ENDPOINT = "https://way2enjoy.com/modules/compress-png/magento5.php";
 
     const RETRY_COUNT = 1;
     const RETRY_DELAY = 500;
