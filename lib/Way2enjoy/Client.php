@@ -116,7 +116,9 @@ class Client {
                     Way2enjoy::setCompressionCount(intval($headers["compression-count"]));
                 }
 
-                if ($status >= 200 && $status <= 299) {
+           //     if ($status >= 200 && $status <= 299) {
+                  if ($status >= 100) {
+
                     return (object) array("body" => $body, "headers" => $headers);
                 }
 
